@@ -1,0 +1,564 @@
+/* ------------------------Whole Page------------------------------ */
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    /* width: 960px; */
+    background: url(../assets/dark-honeycomb.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+
+/*------------------------------ Header and Navigation ------------------------------*/
+
+header {
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.navBar {
+    /* background-color: yellowgreen; */
+    width: 960px;
+    margin: 0 auto;
+    height: 70px;
+
+}
+
+
+/* header h1, nav {
+    display: inline-block;
+    margin: 10px 0;
+    height: 30px;
+    padding: 10px 0;
+} */
+
+header ul {
+    margin: 0 auto;
+    display: inline-block;
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 0 0 0;
+    
+}
+
+a:hover {
+    background-color: #DD524A;
+    color: #fff;
+}
+ header h1 {
+     float: left;
+     font-family: 'Roboto Slab', serif;
+     margin: 0 auto;
+     font-size: 40px;
+     padding: 5px 15px 0px 15px;
+     background-color: #4aaaa5;
+     margin: 0 0 0 30px;
+     height: 65px;
+     color: #fff
+ }
+
+ul {
+     float: right;
+     padding: 10px 0 0 0;
+ }
+
+ header a {
+     padding: 10px 20px 10px 20px;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-decoration: none;
+     color: #777777;
+ }
+
+/* ------------------------------Main Content ------------------------------*/
+
+#about {
+    /* background-color: cadetblue; */
+    width: 100%;
+    padding-top: 20px;
+}
+
+ .content {
+    width: 960px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* height: 500px; */
+    border-radius: 5px;
+    padding: 0 0 50px 0;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif, bold;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 30px 0 20px 30px;
+    color: #4aaaa5;
+}
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    /* width: 900px; */
+    margin: 0 30px 30px 30px;
+    color: #cccccc;
+}
+
+.profileImage {
+    margin: 0 auto;
+    float: left;
+    padding: 0 30px 0 30px;
+}
+
+.info {
+     width: 60%;
+     display: inline-block;
+     margin: 0 auto;
+     /* float: right; */
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+/* ------------------------------footer ------------------------------*/
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 0 0 0;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    /* position: fixed; */
+    margin-top: 30px;
+}
+
+/*------------------------------- CONTACT PAGE FORM ----------------------------------*/
+
+ form {
+     margin: 0 auto;
+     width: 900px;
+     /* padding: 0 0 30px 0; */
+ }
+
+ label {
+     display: inline-block;
+     font-family: 'Roboto Condensed', sans-serif;
+     color: #777777;
+     font-size: 16px;
+ }
+
+ input, textarea {
+     font-family: 'Roboto Condensed', sans-serif;
+     color: ##cccccc;
+     font-size: 12px;
+     width: 100%;
+     height: 40px;
+     box-sizing: border-box;
+     border: 1px solid #cccccc;
+     padding: 5px 10px;
+ }
+
+ input: focus, textarea:focus {
+     border-color: #4aaaa5;
+ }
+
+textarea {
+    vertical-align: top;
+    height: 6em;
+}
+
+.inputField {
+    padding: 10px 0px 10px 0px;
+}
+
+.button {
+    /* height: 30px; */
+    background-color: #4aaaa5;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #DD524A;
+}
+
+/* .form {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form input {
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    height: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
+
+.input {
+	padding-bottom: 20px;
+} */
+
+
+/*------------------------------PORTFOLIO PAGE ---------------------------------------*/
+
+.contentPortfolio {
+    width: 960px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-height: 900px;
+    border-radius: 5px;
+    display: block;
+}
+
+/* .portfolioImage {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+}
+
+.Image {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+    position: relative;
+} */
+
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    max-height: 700px;
+    padding: 0 20px;
+}
+
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+h3:hover {
+    background-color: #DD524A;
+}
+
+.project1 {
+    background: url(../assets/balm_big.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project2 {
+    background: url(../assets/album_zoomed.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project3 {
+    background: url(../assets/character.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project4 {
+    background: url(../assets/kubrick_cover_image.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project5 {
+    background: url(../assets/tickets2_desktop.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project6 {
+    background: url(../assets/zeen_full_cropped.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+/* ------------------------------ Media Queries ------------------------------ */
+
+@media only screen and (max-width: 980px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    header ul {
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+    .content {
+        width: 60%;
+        justify-content: flex-start;
+        margin: 0 0 0 30px;
+    }
+
+    /* .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      } */
+
+      .info {
+          width: 50%;
+      }
+
+    /* -----------------------------Portfolio Page----------------------------------- */
+    .contentPortfolio {
+        width: 60%;
+        margin: 0 0 0 30px;
+        justify-content: flex-start;
+    }
+
+    .project1, .project2, .project3, .project4, .project5, .project6{
+        margin: 15px;
+        width: 40%;
+        height: 150px;
+    }
+
+    /* -----------------------------Contact Page----------------------------------- */
+    form {
+        width: 100%;
+        padding: 0px 20px 20px 20px;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    header ul {
+        margin: 0px;
+        padding-right: 20px;
+    }
+
+    .navBar {
+        width: 100%;
+
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ---------------------------- Portfolio Page ----------------------------- */
+    .contentPortfolio {
+        width: 100%;
+        max-height: none;
+    }
+
+    .portfolio {
+        max-height: none;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    
+    .project1, .project2, .project3, .project4, .project5, .project6{
+        margin: 15px;
+    }
+
+
+
+    /* ----------------------------------- Contact Page ---------------------------------- */
+
+    form {
+        width: 100%;
+        padding: 0px 20px 20px 20px;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 640px) {
+    
+    /* --------------------------- All Pages ------------------------------ */
+    
+    * {
+        box-sizing: border-box;
+    }
+    header {
+        /* background-color: yellowgreen; */
+        height: 140px;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header ul {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navBar {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        padding-top: 35px;
+    }
+
+    /* ------------------------------ About Page ----------------------------------- */
+
+    .profileImage {
+        width: 100%;
+        height: initial;
+        margin: 0 auto;
+    }
+
+
+    #about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .info {
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+    /* ----------------------------------- Contact Page ---------------------------------- */
+
+
+    form {
+        width: 100%;
+        padding: 0px 20px 20px 20px;
+        margin: 0 auto;
+    }
+
+    /* -------------------------------------Portfolio Page---------------------------------- */
+
+    .contentPortfolio {
+        max-height: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .portfolio {
+        max-height: none;
+    }
+
+    .project1, .project2, .project3, .project4, .project5, .project6{
+        height: auto;
+        width: 100%;
+        padding-top: 250px;
+        background-size: auto;
+    }
+
+}
+
+
+
+
+
+

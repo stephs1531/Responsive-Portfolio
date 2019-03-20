@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    header ul {
+        margin: 0px;
+        padding-right: 20px;
+    }
+
+    .navBar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ---------------------------- Portfolio Page ----------------------------- */
+    .contentPortfolio {
+        width: 100%;
+        max-height: none;
+    }
+
+    .portfolio {
+        max-height: none;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    
+    .project1, .project2, .project3, .project4, .project5, .project6{
+        margin: 15px;
+    }
