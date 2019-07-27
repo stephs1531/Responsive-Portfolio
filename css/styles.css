@@ -273,88 +273,45 @@ h3:hover {
     background-color: #DD524A;
 }
 
+.project {
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
 .project1 {
     background: url(../assets/mindset_home.png) center no-repeat;
     background-size: 250px 200px;
-    height:200px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 30px 20px;
 }
 
 .project2 {
-    background: url(../assets/album_zoomed.jpg) center no-repeat;
+    background: url(../assets/savvie_home.png) center no-repeat;
     background-size: 250px 200px;
-    height:200px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 30px 20px;
 }
 
 .project3 {
-    background: url(../assets/character.jpg) center no-repeat;
+    background: url(../assets/puppyGame.png) center no-repeat;
     background-size: 250px 200px;
-    height:200px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 30px 20px;
 }
 
 .project4 {
     background: url(../assets/kubrick_cover_image.jpg) center no-repeat;
     background-size: 250px 200px;
-    height:200px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 30px 20px;
 }
 
 .project5 {
     background: url(../assets/tickets2_desktop.jpg) center no-repeat;
     background-size: 250px 200px;
-    height:200px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 30px 20px;
 }
 
 .project6 {
     background: url(../assets/zeen_full_cropped.jpg) center no-repeat;
     background-size: 250px 200px;
-    height:200px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin: 30px 20px;
 }
 
 /* ------------------------------ Media Queries ------------------------------ */
